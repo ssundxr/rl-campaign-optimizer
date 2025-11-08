@@ -1,0 +1,11 @@
+[default]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
