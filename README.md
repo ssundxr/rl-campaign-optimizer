@@ -8,7 +8,7 @@
 
 Production-grade Reinforcement Learning system that optimizes marketing campaigns in real-time using contextual bandits (LinUCB algorithm). Processes 100K+ transactions to maximize customer lifetime value and reduce churn.
 
-## 🎯 Key Features
+##  Key Features
 
 - **Real-Time Optimization**: Sub-second campaign recommendations via Kafka streaming
 - **Self-Learning AI**: Continuous model improvement through reinforcement learning
@@ -17,14 +17,14 @@ Production-grade Reinforcement Learning system that optimizes marketing campaign
 - **Live Dashboard**: Real-time analytics with Streamlit
 - **Containerized**: Full Docker orchestration for easy deployment
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Data Generation → Feature Engineering → Kafka Streaming → RL Model → API/Dashboard
      (CSV)            (Parquet)           (Events)        (LinUCB)   (Flask/Streamlit)
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Docker Desktop
@@ -79,7 +79,7 @@ streamlit run dashboard/app.py
 | Churn Reduction | -20-35% |
 | Marketing ROI | +45% |
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 rl_campaign_optimizer/
@@ -99,7 +99,7 @@ rl_campaign_optimizer/
 └── requirements.txt           # Python dependencies
 ```
 
-## 🧠 ML Approach
+##  ML Approach
 
 **Algorithm**: Linear Upper Confidence Bound (LinUCB)
 - **Problem Type**: Contextual Multi-Armed Bandit
@@ -107,7 +107,7 @@ rl_campaign_optimizer/
 - **Reward Function**: Conversion + Revenue - Cost
 - **Exploration/Exploitation**: UCB-based action selection
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ```bash
 # Health Check
@@ -129,7 +129,7 @@ POST /feedback
 }
 ```
 
-## 🐳 Docker Services
+##  Docker Services
 
 | Service | Image | Port | Purpose |
 |---------|-------|------|---------|
@@ -138,7 +138,7 @@ POST /feedback
 | PostgreSQL | postgres:15-alpine | 5432 | Analytics storage |
 | Zookeeper | confluentinc/cp-zookeeper:7.5.0 | 2181 | Kafka coordination |
 
-## 📈 Sample Results
+##  Sample Results
 
 - **Customers Processed**: 10,000
 - **Transactions**: 100,000
@@ -146,7 +146,7 @@ POST /feedback
 - **At-Risk Customers**: 835 (8.3%)
 - **Average CLV**: ₹50,771
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **ML/Data**: PyTorch, Scikit-learn, XGBoost, PySpark  
 **Streaming**: Apache Kafka  
@@ -155,7 +155,7 @@ POST /feedback
 **Frontend**: Streamlit, Plotly  
 **Infrastructure**: Docker, Docker Compose  
 
-## 📝 Development
+##  Development
 
 ```bash
 # Check service status
@@ -168,19 +168,19 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please open an issue or submit a pull request.
 
-## 📄 License
+##  License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+##  Author
 
 **Your Name**  
-[GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://github.com/ssundxr) • [LinkedIn](www.linkedin.com/in/sundxrr)
 
 ---
 
-⭐ **Star this repo** if you find it useful!
+**Star this repo** if you find it useful!
