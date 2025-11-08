@@ -1,0 +1,39 @@
+# Data Science Core
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Machine Learning
+torch>=2.0.0
+xgboost>=2.0.0
+
+# Big Data Processing
+pyspark>=3.5.0
+
+# Streaming
+kafka-python>=2.0.0
+
+# Database
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# API
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Dashboard
+streamlit>=1.26.0
+plotly>=5.16.0
+seaborn>=0.12.0
+matplotlib>=3.7.0
+
+# Monitoring
+prometheus-client>=0.17.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Additional dependencies for Windows compatibility
+pytz
+tzdata
