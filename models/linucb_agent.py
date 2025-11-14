@@ -73,12 +73,12 @@ class LinUCBAgent:
         # Track total interactions for monitoring
         self.total_interactions: int = 0
         
-        # Campaign type mapping for interpretability
+        # Campaign type mapping (communication channels with costs)
         self.campaign_names: Dict[int, str] = {
-            0: '20% Discount',
-            1: 'Free Shipping',
-            2: 'Early Access',
-            3: 'No Campaign'
+            0: 'Email',
+            1: 'SMS',
+            2: 'Push Notification',
+            3: 'Direct Mail'
         }
         
         logger.info(
